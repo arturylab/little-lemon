@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Markazi_Text } from 'next/font/google';
 import Image from "next/image";
+import Link from 'next/link';
 
 const markazi = Markazi_Text({ subsets: ['latin'] });
 
@@ -17,7 +18,7 @@ export default function Hero() {
           on traditional recipes served with a modern twist.
         </p>
         <Button>
-            Reserve Table
+            <Link href="/reservations">Reservations</Link>
         </Button>
       </div>
 

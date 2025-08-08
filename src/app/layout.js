@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Main from '../components/Main';
 import { Karla } from 'next/font/google';
+import Script from 'next/script';
 
 const karla = Karla({ subsets: ['latin'] });
 
